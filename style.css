@@ -7,13 +7,26 @@
   width: 200px;
   height: 200px;
   background-color: lightgreen;
-  display: block;
   float: left;
 }
+.small-1 {
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  float: left;
+}
+.small-2 {
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  float: left;
+}
+
 .big {
   width: 600px;
   height: 200px;
-  display: block;
   background-color: lightsalmon;
+  overflow: auto;
+  clear: both;
   float: left;
 }
